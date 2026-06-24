@@ -1,0 +1,104 @@
+.kutuphane-alani{
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.raf-basligi{
+    color: #5D4037;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.kitap-link{
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.kitap-kutusu{
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.kitap-link:hover .kitap-kutusu{
+    transform: translateY(-10px);
+}
+
+
+.kitap-gorsel{
+    width: 130px;       
+    height: 190px;       
+    object-fit: cover;
+    border-radius: 2px 6px 6px 2px; 
+    margin-bottom: 10px;
+}
+
+.kitap-adi{
+    display: block;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #3e2723;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+}
+
+.yazar-adi{
+    display: block;
+    font-size: 0.9rem;
+    color: #795548;
+    font-style: italic;
+}
+
+.raf-tahtasi{
+    height: 15px;
+    background: #8B5A2B;
+    background: linear-gradient(to bottom, #8B5A2B 0%, #5D4037 100%);
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 2px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1; 
+}
+
+.detay-karti{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(233, 30, 99, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+    border-top: 5px solid #ec407a;
+}
+
+.detay-baslik{ 
+    color: #744840; 
+    font-family: 'Georgia', serif; 
+    font-weight: bold; 
+}
+
+.detay-yazar{ 
+    color: #2d1d1d; 
+    font-style: italic; 
+    margin-bottom: 15px; 
+}
+
+.bilgi-etiketi{ 
+    color: #ec407a; 
+    font-weight: bold; 
+    margin-right: 5px;
+}
+
+.detay-ozet{ 
+    background: #fce4ec; 
+    padding: 15px; 
+    border-radius: 10px; 
+    border-left: 4px solid #ec407a; 
+    color: #555; 
+}
+

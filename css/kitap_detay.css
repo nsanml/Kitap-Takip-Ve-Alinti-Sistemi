@@ -1,0 +1,59 @@
+.nav-tabs .nav-link{
+     color: #555; 
+     font-weight: 600; 
+}
+
+.nav-tabs .nav-link.active{ 
+     color: #d63384; 
+     border-bottom: 3px solid #d63384; 
+}
+
+.comment-card{ 
+     background: white; 
+     border-radius: 10px; 
+     padding: 15px; 
+     margin-bottom: 15px; 
+     box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+     position: relative; 
+}
+
+.btn-yorum{ 
+     background-color: #d63384; 
+     color: white; 
+     border:none; 
+}
+
+.btn-yorum:hover{ 
+     background-color: #c2185b; 
+     color: white; 
+}
+
+.comment-options{ 
+     position: absolute; 
+     top: 10px; 
+     right: 10px; 
+}
+
+.dropdown-item.text-danger:hover{ 
+     background-color: #ffebee; 
+}
+
+.btn-durum{ 
+     border: 2px solid #f48fb1; 
+     color: #880e4f; 
+     background-color: white; 
+     border-radius: 50px; 
+     transition: all 0.3s; 
+}
+
+.btn-durum:hover{ 
+     background-color: #fce4ec; 
+     transform: translateY(-2px); 
+}
+
+.btn-durum.active{ 
+     background-color: #ec407a !important; 
+     color: white !important; 
+     border-color: #ec407a !important; 
+     box-shadow: 0 4px 10px rgba(236, 64, 122, 0.4); 
+}

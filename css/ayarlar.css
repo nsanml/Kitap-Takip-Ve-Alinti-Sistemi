@@ -1,0 +1,71 @@
+body{ 
+    background-color: #fff0f5; 
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+.settings-card{
+    background: white; 
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(233, 30, 99, 0.05);
+    padding: 30px; 
+    border-top: 5px solid #ec407a; 
+    margin-bottom: 30px;
+}
+
+.danger-zone{
+    border-top: 5px solid #dc3545 !important;
+}
+
+.settings-title{
+    color: #880e4f; 
+    font-family: 'Georgia', serif; 
+    font-weight: bold;
+    border-bottom: 2px solid #fce4ec; 
+    padding-bottom: 10px; 
+    margin-bottom: 25px;
+}
+
+.form-label{ 
+    color: #ad1457; 
+    font-weight: 600; 
+}
+
+.form-control{ 
+    border: 2px solid #f8bbd0; 
+    border-radius: 10px; 
+}
+
+.form-control:focus{ 
+    border-color: #ec407a; 
+    box-shadow: 0 0 0 0.2rem rgba(236, 64, 122, 0.25); 
+}
+
+.btn-pembe{
+    background-color: #ec407a; 
+    color: white; 
+    border: none;
+    padding: 10px 25px; 
+    border-radius: 50px; 
+    font-weight: bold; 
+    transition: 0.3s;
+}
+
+.btn-pembe:hover{ 
+    background-color: #d81b60; 
+    transform: translateY(-2px); 
+}
+
+.pp-img{
+    border: 3px solid transparent; 
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+.pp-img:hover{
+    transform: scale(1.1); 
+}
+
+.pp-img.selected{
+    border-color: #ec407a;
+    box-shadow: 0 0 10px rgba(236, 64, 122, 0.5);
+    transform: scale(1.1);
+}

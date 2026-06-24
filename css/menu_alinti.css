@@ -1,0 +1,37 @@
+.alinti{
+	background-color: #fff0f5;
+	min-height: 300px;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: center; 
+	box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.alinti h3{
+	color: #d63384; 
+	font-family: 'Georgia', serif; 
+	border-bottom: 2px dashed #ccc; 
+	padding-bottom: 10px; 
+	margin-bottom: 20px;
+}
+
+.alinti p{
+	font-size: 1.2rem; 
+	font-style: italic; 
+	color: #555;
+}
+
+.alinti div{
+	margin-top: 15px; 
+	font-weight: bold; 
+	color: #888;
+}
+
+a{
+	color: grey !important;
+	text-decoration: none !important;
+}
